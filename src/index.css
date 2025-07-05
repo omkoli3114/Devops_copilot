@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.left-pane {
+  background-color: white;
+  color: #1e3a8a; /* Indigo-900 */
+}
+
+.right-pane {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 1s ease-out;
+}
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.4);
+}
