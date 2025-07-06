@@ -26,7 +26,7 @@ export default function App() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleNotifyClick = () => {
-    window.open('https://forms.gle/M4f5v8qnJrQbczo77', '_blank');
+    window.open('https://forms.gle/P6qYeVRCjnq3sCY8A', '_blank');
     setSubmitted(true);
   };
 
