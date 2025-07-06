@@ -77,7 +77,7 @@ export default function App() {
           <div className="bg-white text-black rounded-xl shadow-xl p-6 w-full max-w-md z-10 animate-fade-in-up">
             <h2 className="text-xl font-semibold mb-4 text-center">Join the Waitlist</h2>
             <form
-              action="https://formspree.io/f/xvgrnake"
+              action="https://formsubmit.io/send/mail.omkoli@gmail.com"
               method="POST"
               onSubmit={() => setSubmitted(true)}
               className="flex flex-col gap-4"
